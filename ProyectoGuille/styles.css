@@ -1,0 +1,157 @@
+@import "normalize.css";
+
+.encabezado{
+width: 100vw;
+background: rgba(12, 12, 12, 0.957);
+align-items: center;
+display: flex;
+flex-wrap: wrap;
+border: 1px solid rgba(12, 12, 12, 0.957);
+box-shadow: 1px 1px 1px 1px rgb(0 0 0 / 25%);
+}
+
+
+.Logo{
+	display: flex;
+	justify-content: center;
+	margin: 0px;
+	padding: 1.5rem 0 0 0;
+    flex-grow: 5;
+	margin-left: 12%;
+	font-size: 3em;
+	letter-spacing: 5px;
+	color: #FFFFFF;
+	
+}
+
+.arts{
+	padding: 2% 2% 2% 2%;
+	margin: 2% 2% 2% 2%;
+	box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 25%);
+	float: left;
+	border-radius: 20px;
+}
+.bodyContent{
+	display: flex;
+	box-sizing: content-box;
+	
+}
+.botones-pags{
+	margin-left: 230px;
+	display: flex;
+	width: 100%;
+	font-size: 18px;
+	align-content: center;
+	justify-content: center;
+}
+.listalateral{
+background: rgba(12, 12, 12, 0.957);
+width: 10em;
+position: relative;
+top:-2px;
+border-right: 1px solid rgba(12, 12, 12, 0.957);
+box-shadow: 1px 1px 1px 0px rgb(0 0 0 / 25%);
+border-top: 0px;
+padding: 1rem 40px 0px 40px;
+font-size: 18px;
+min-width: 150px;
+
+}
+.img-logo{
+	position: absolute;
+	left: 4%;
+	top:1rem;
+	border-radius: 100%;
+}
+.tlista{
+	padding-left: 10%;
+	color: #FFFFFF;
+}
+
+.indice{
+	display: inline-block;
+	padding-left: 10px;
+	margin: 0px 0px 0px 0px;
+}
+.artist{
+	background: #FFFFFF;
+	border: 10px solid #FFFFFF;
+	text-align: center;
+}
+
+.tituloartist{
+ text-align: center;
+}
+
+.parrafosartist{
+text-align: justify;
+}
+.boton{
+color: #FFFFFF;
+font-size: 18px;
+text-decoration: none;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+padding-bottom: 18px;
+}
+.boton:hover{
+	color: #FFFFFF;
+	background-color: #000;
+	transition: 1s;
+
+}
+.piedepa{
+display: block;
+position: relative;
+text-align: center;
+height: 100px;
+width: 100vw;
+background: #007CFF;
+top:-0.5rem
+}
+
+
+
+.container{
+	display:flex;
+}
+
+
+.tituloart{
+	text-align: center;
+   }
+
+   .parrafosarts{
+	text-align: justify;
+	margin-right: 15px;
+	}
+
+
+	.pf{
+		position: relative;
+		margin-left: 200px;
+		margin-top: 20px;
+		background: #FFFFFF;
+		width: 1050px;
+		border: 10px solid #FFFFFF;
+		text-align: center;
+	}
+
+	.titulopf{
+		text-align: center;
+	   }
+	
+	   .parrafospf{
+		text-align: justify;
+		margin-right: 15px;
+	}
+
+
+ul{
+  list-style: none;
+}
+hr{
+	background-color: #FFFFFF;
+}
